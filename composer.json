@@ -1,0 +1,23 @@
+{
+  "name": "tsmsid/tcastsms-api",
+  "description": "TCASTSMS API is build for TCASTSMS ",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "TCASTSMS",
+      "email": "tanyadanang@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.3.0",
+    "ext-curl": "*"
+  }
+}
